@@ -85,7 +85,7 @@ export default {
       if (files[0] !== undefined){
         //
         let f = files[0];
-        // console.log();
+      
         let extChecker = f.name.split('.');
         if (extChecker[extChecker.length-1] == 'anb'){
           let reader = new FileReader();
